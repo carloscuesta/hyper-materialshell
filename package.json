@@ -1,0 +1,26 @@
+{
+  "name": "hyperterm-materialshell",
+  "version": "1.0.0",
+  "description": "A material theme for your terminal.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscuesta/hyperterm-materialshell.git"
+  },
+  "keywords": [
+    "hyperterm",
+    "theme",
+    "materialshell",
+    "material",
+    "design"
+  ],
+  "author": "Carlos Cuesta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carloscuesta/hyperterm-materialshell/issues"
+  },
+  "homepage": "https://github.com/carloscuesta/hyperterm-materialshell#readme"
+}
