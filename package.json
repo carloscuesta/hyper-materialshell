@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-materialshell",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A material design theme for your terminal.",
   "main": "index.js",
   "scripts": {
