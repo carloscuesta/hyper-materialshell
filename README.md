@@ -1,6 +1,6 @@
 # materialshell HyperTerm
 
-[![npm Downloads](https://img.shields.io/npm/dt/hyperterm-materialshell.svg?maxAge=2592000?style=flat-square)](https://www.npmjs.com/package/hyperterm-materialshell)
+[![npm Downloads](https://img.shields.io/npm/dt/hyperterm-materialshell.svgstyle=flat-square)](https://www.npmjs.com/package/hyperterm-materialshell)
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/hyperterm-materialshell.svg?style=flat-square)](https://github.com/carloscuesta/hyperterm-materialshell/blob/master/LICENSE)
 
 ![hyperterm](https://cloud.githubusercontent.com/assets/7629661/17600203/b890114c-6002-11e6-87ab-e07f911e4568.png)
@@ -17,3 +17,7 @@ plugins: ['hyperterm-materialshell']
 ```
 
 3. Reload HyperTerm - `CMD+Shift+R`.
+
+### About
+
+[materialshell](https://materialshell.carloscuesta.me) is available for other terminal emulators, checkout the [materialshell repository](https://github.com/carloscuesta/materialshell).
