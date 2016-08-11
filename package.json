@@ -1,7 +1,7 @@
 {
   "name": "hyperterm-materialshell",
   "version": "1.0.0",
-  "description": "A material theme for your terminal.",
+  "description": "A material design theme for your terminal.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,8 +14,7 @@
     "hyperterm",
     "theme",
     "materialshell",
-    "material",
-    "design"
+    "material design"
   ],
   "author": "Carlos Cuesta",
   "license": "MIT",
