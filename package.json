@@ -1,6 +1,6 @@
 {
   "name": "hyperterm-materialshell",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A material design theme for HyperTerm based on materialshell.",
   "main": "index.js",
   "scripts": {
