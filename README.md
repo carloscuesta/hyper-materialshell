@@ -5,7 +5,7 @@
 
 ![hyperterm](https://cloud.githubusercontent.com/assets/7629661/17600203/b890114c-6002-11e6-87ab-e07f911e4568.png)
 
-> A material design theme for [HyperTerm](https://hyperterm.org) – Theme based on [Carlos Cuesta's materialshell](https://github.com/carloscuesta/materialshell).
+> A material design theme for [HyperTerm](https://hyperterm.org) based on [Carlos Cuesta's materialshell](https://github.com/carloscuesta/materialshell).
 
 ### Install
 
@@ -17,6 +17,24 @@
 plugins: ['hyperterm-materialshell']
 ```
 
-### Information
+### FAQ
 
-To get the exact same look as in the screenshot, you need to use ZSH and [materialshell](https://github.com/carloscuesta/materialshell). This theme is also available for other terminal emulators.
+**What font is that?**
+
+[Consolas](https://en.wikipedia.org/wiki/Consolas) a monospaced typeface.
+
+**How can I get the cool prompt?**
+
+The prompt isn't part of HyperTerm or iTerm, it has to do with the shell. I'm using ZSH with along with [materialshell](https://github.com/carloscuesta/materialshell) take a look at the materialshell repository.
+
+**Can I make contributions?**
+
+Yes! You can submit an issue and send a pull request :tada:
+
+### You might also like
+
+[materialshell ZSH prompt](https://github.com/carloscuesta/materialshell#shell-prompt)
+
+[materialshell for iTerm](https://github.com/carloscuesta/materialshell#iterm)
+
+[materialshell for Cmder](https://github.com/carloscuesta/materialshell#cmder)

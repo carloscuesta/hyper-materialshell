@@ -1,6 +1,6 @@
 # Contributing to hyperterm-materialshell
 
-Hello! And thanks for contibutting to hyperterm-materialshell. Before implementing new features and sending a pull request, please [submit an issue](https://github.com/carloscuesta/hyperterm-materialshell/issues/new) to talk about new updates.
+Hello! Thanks for contibutting to hyperterm-materialshell. Before implementing new features and sending a pull request, please [submit an issue](https://github.com/carloscuesta/hyperterm-materialshell/issues/new) to talk about new updates.
 
 ### How to submit a pull request ?
 
