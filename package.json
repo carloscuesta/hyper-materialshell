@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "A material design theme for HyperTerm based on materialshell.",
   "main": "index.js",
+  "xo": {
+    "esnext": true
+  },
   "scripts": {
     "test": "xo"
   },

@@ -27,9 +27,9 @@ exports.decorateConfig = config => {
 	return Object.assign({}, config, {
 		cursorColor: red,
 		cursorShape: 'UNDERLINE',
-		foregroundColor: foregroundColor,
-		backgroundColor: backgroundColor,
-		borderColor: borderColor,
+		foregroundColor,
+		backgroundColor,
+		borderColor,
 		fontSize: `${fontSize}px`,
 		fontFamily: fonts,
 		css: `${config.css || ''}
