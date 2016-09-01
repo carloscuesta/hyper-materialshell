@@ -1,5 +1,6 @@
 # hyperterm-materialshell
 
+[![Build Status](https://img.shields.io/travis/carloscuesta/hyperterm-materialshell.svg?style=flat-square)](https://travis-ci.org/carloscuesta/hyperterm-materialshell)
 [![npm Downloads](https://img.shields.io/npm/dt/hyperterm-materialshell.svg?style=flat-square)](https://www.npmjs.com/package/hyperterm-materialshell)
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/hyperterm-materialshell.svg?style=flat-square)](https://github.com/carloscuesta/hyperterm-materialshell/blob/master/LICENSE)
 

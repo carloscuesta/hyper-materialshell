@@ -23,37 +23,37 @@ const lightMagenta = '#D81B60';
 const lightCyan = '#00ACC1';
 const lightWhite = '#F5F5F5';
 
-exports.decorateConfig = (config) => {
-    return Object.assign({}, config, {
-        cursorColor: red,
-        cursorShape: 'UNDERLINE',
-        foregroundColor: foregroundColor,
-        backgroundColor: backgroundColor,
-        borderColor: borderColor,
-        fontSize: `${fontSize}px`,
-        fontFamily: fonts,
-        css: `${config.css || ''}
-        .tab_tab:before {border-left: 1px solid;}
-        .tab_active {background: rgba(255,255,255,0.05);}
-        .tab_active:before {border-color: ${red};}
-        `,
-        colors: {
-            black,
-            red,
-            green,
-            yellow,
-            blue,
-            magenta,
-            cyan,
-            white,
-            lightBlack,
-            lightRed,
-            lightGreen,
-            lightYellow,
-            lightBlue,
-            lightMagenta,
-            lightCyan,
-            lightWhite,
-        }
-    });
+exports.decorateConfig = config => {
+	return Object.assign({}, config, {
+		cursorColor: red,
+		cursorShape: 'UNDERLINE',
+		foregroundColor: foregroundColor,
+		backgroundColor: backgroundColor,
+		borderColor: borderColor,
+		fontSize: `${fontSize}px`,
+		fontFamily: fonts,
+		css: `${config.css || ''}
+		.tab_tab:before {border-left: 1px solid;}
+		.tab_active {background: rgba(255,255,255,0.05);}
+		.tab_active:before {border-color: ${red};}
+		`,
+		colors: {
+			black,
+			red,
+			green,
+			yellow,
+			blue,
+			magenta,
+			cyan,
+			white,
+			lightBlack,
+			lightRed,
+			lightGreen,
+			lightYellow,
+			lightBlue,
+			lightMagenta,
+			lightCyan,
+			lightWhite
+		}
+	});
 };
