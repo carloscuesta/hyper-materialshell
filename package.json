@@ -1,7 +1,7 @@
 {
-  "name": "hyperterm-materialshell",
-  "version": "1.1.0",
-  "description": "A material design theme for HyperTerm based on materialshell.",
+  "name": "hyper-materialshell",
+  "version": "1.2.0",
+  "description": "A material design theme for Hyper based on materialshell.",
   "main": "index.js",
   "xo": {
     "esnext": true
@@ -11,9 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/carloscuesta/hyperterm-materialshell.git"
+    "url": "git+https://github.com/carloscuesta/hyper-materialshell.git"
   },
   "keywords": [
+    "hyper",
     "hyperterm",
     "theme",
     "materialshell",
@@ -22,9 +23,9 @@
   "author": "Carlos Cuesta",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/carloscuesta/hyperterm-materialshell/issues"
+    "url": "https://github.com/carloscuesta/hyper-materialshell/issues"
   },
-  "homepage": "https://github.com/carloscuesta/hyperterm-materialshell#readme",
+  "homepage": "https://github.com/carloscuesta/hyper-materialshell#readme",
   "devDependencies": {
     "xo": "^0.16.0"
   }
