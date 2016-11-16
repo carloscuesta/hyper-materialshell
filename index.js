@@ -3,8 +3,6 @@
 const backgroundColor = '#151515';
 const foregroundColor = '#A1B0B8';
 const borderColor = '#252525';
-const fonts = 'Consolas, "Source Code Pro", monospace';
-const fontSize = '15';
 
 const black = '#252525';
 const red = '#FF5252';
@@ -30,8 +28,6 @@ exports.decorateConfig = config => {
 		foregroundColor,
 		backgroundColor,
 		borderColor,
-		fontSize: `${fontSize}px`,
-		fontFamily: fonts,
 		css: `${config.css || ''}
 		.tab_tab:before {border-left: 1px solid;}
 		.tab_active {background: rgba(255,255,255,0.05);}
