@@ -2,8 +2,8 @@
 
 const foregroundColor = '#A1B0B8';
 const borderColor = '#252525';
-const oceanicColors = require('./oceanic-colors');
-const defaultColors = require('./regular-colors');
+const oceanicColors = require('./colorschemes/oceanic.js');
+const defaultColors = require('./colorschemes/regular.js');
 
 exports.decorateConfig = config => {
 	let colors;
