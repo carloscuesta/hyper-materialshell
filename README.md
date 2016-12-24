@@ -19,6 +19,16 @@
 plugins: ['hyper-materialshell']
 ```
 
+### Customization
+
+Materialshell also has an Oceanic colorscheme, to use this version, edit `.hyper.js` and add this code inside of the `config: {}` object.
+
+```javascript
+materialshell: {
+  theme: oceanic
+}
+```
+
 ### FAQ
 
 **What font is that?**
