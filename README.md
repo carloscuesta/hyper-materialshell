@@ -25,7 +25,7 @@ Materialshell also has an Oceanic colorscheme, to use this version, edit `.hyper
 
 ```javascript
 materialshell: {
-  theme: oceanic
+  theme: 'oceanic'
 }
 ```
 
