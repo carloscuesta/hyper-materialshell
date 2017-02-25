@@ -1,7 +1,7 @@
 # hyper-materialshell
 
 [![Build Status](https://img.shields.io/travis/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://travis-ci.org/carloscuesta/hyper-materialshell)
-[![npm Downloads](https://img.shields.io/npm/dt/hyperterm-materialshell.svg?style=flat-square)](https://www.npmjs.com/package/hyperterm-materialshell)
+[![npm downloads](https://img.shields.io/npm/dt/hyper-materialshell.svg?style=flat-square)](http://npmjs.com/carloscuesta/hyper-materialshell)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg?style=flat-square)](https://github.com/sindresorhus/xo)
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://github.com/carloscuesta/hyper-materialshell/blob/master/LICENSE)
 
