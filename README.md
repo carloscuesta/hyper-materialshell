@@ -9,7 +9,7 @@
 
 > A material design theme for [Hyper](http://hyper.is) based on [Carlos Cuesta's materialshell](https://github.com/carloscuesta/materialshell).
 
-### Install
+## Install
 
 1. Open Hyper.app preferences with your editor - Tip: `CMD+,` or at `~/.hyper.js`.
 2. Add `hyper-materialshell` to your plugins list.
@@ -19,7 +19,7 @@
 plugins: ['hyper-materialshell']
 ```
 
-### Customization
+## Customization
 
 Materialshell also has an Oceanic colorscheme, to use this version, edit `.hyper.js` and add this code inside of the `config: {}` object.
 
@@ -29,7 +29,7 @@ materialshell: {
 }
 ```
 
-### FAQ
+## FAQ
 
 **What font is that?**
 
@@ -39,14 +39,10 @@ materialshell: {
 
 The prompt isn't part of Hyper or iTerm, it has to do with the shell. I'm using ZSH with along with [materialshell](https://github.com/carloscuesta/materialshell) take a look at the materialshell repository.
 
-**Can I make contributions?**
+## You might also like
 
-Yes! You can submit an issue and send a pull request :tada:
+[ZSH materialshell prompt](https://github.com/carloscuesta/materialshell#shell-prompt)
 
-### You might also like
+[iTerm materialshell](https://github.com/carloscuesta/materialshell#iterm)
 
-[materialshell ZSH prompt](https://github.com/carloscuesta/materialshell#shell-prompt)
-
-[materialshell for iTerm](https://github.com/carloscuesta/materialshell#iterm)
-
-[materialshell for Cmder](https://github.com/carloscuesta/materialshell#cmder)
+[Atom material syntax](https://github.com/carloscuesta/material-syntax)
