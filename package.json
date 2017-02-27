@@ -1,6 +1,6 @@
 {
   "name": "hyper-materialshell",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "description": "A material design theme for Hyper based on materialshell.",
   "main": "index.js",
   "xo": {
