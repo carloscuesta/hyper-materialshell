@@ -16,7 +16,7 @@ const getColorScheme = cfg => {
 };
 
 exports.decorateConfig = config => {
-	const colors = getColorScheme(config);
+	const colors = getColorScheme(config) || defaultColors;
 	const backgroundColor = colors.background;
 	return Object.assign({}, config, {
 		cursorColor: colors.palette.red,
