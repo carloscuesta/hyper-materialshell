@@ -7,7 +7,7 @@
     "esnext": true
   },
   "scripts": {
-    "test": "xo"
+    "test": "standard"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,6 @@
   },
   "homepage": "https://github.com/carloscuesta/hyper-materialshell#readme",
   "devDependencies": {
-    "xo": "^0.16.0"
+    "standard": "^10.0.3"
   }
 }

@@ -1,34 +1,31 @@
-'use strict';
+const colors = require('./colorschemes/colors.js')
+const oceanicTheme = require('./colorschemes/oceanic.js')
+const darkTheme = require('./colorschemes/dark.js')
 
-const foregroundColor = '#A1B0B8';
-const borderColor = '#252525';
-const oceanicColors = require('./colorschemes/oceanic.js');
-const defaultColors = require('./colorschemes/regular.js');
+const getColorScheme = (cfg) => {
+  if (cfg.materialshell) {
+    switch (cfg.materialshell.theme) {
+      case 'oceanic': return oceanicTheme
+      case 'dark': return darkTheme
+      default: return darkTheme
+    }
+  }
+}
 
-const getColorScheme = cfg => {
-	if (cfg.materialshell) {
-		switch (cfg.materialshell.theme) {
-			case 'oceanic': return oceanicColors;
-			case 'dark': return defaultColors;
-			default: return defaultColors;
-		}
-	}
-};
+exports.decorateConfig = (config) => {
+  const theme = getColorScheme(config) || darkTheme
 
-exports.decorateConfig = config => {
-	const colors = getColorScheme(config) || defaultColors;
-	const backgroundColor = colors.background;
-	return Object.assign({}, config, {
-		cursorColor: colors.palette.red,
-		cursorShape: 'UNDERLINE',
-		foregroundColor,
-		backgroundColor,
-		borderColor,
-		css: `${config.css || ''}
-		.tab_tab:before {border-left: 1px solid;}
-		.tab_active {background: rgba(255,255,255,0.05);}
-		.tab_active:before {border-color: ${colors.palette.red};}
-		`,
-		colors: colors.palette
-	});
-};
+  return Object.assign({}, config, {
+    cursorColor: theme.palette.red,
+    cursorShape: 'UNDERLINE',
+    foregroundColor: colors.foregroundColor,
+    backgroundColor: theme.background,
+    borderColor: colors.black,
+    css: `${config.css || ''}
+        .tab_tab:before {border-left: 1px solid;}
+        .tab_active {background: rgba(255,255,255,0.05);}
+        .tab_active:before {border-color: ${theme.palette.red};}
+    `,
+    colors: theme.palette
+  })
+}
