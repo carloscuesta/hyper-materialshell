@@ -2,7 +2,7 @@ const colors = require('./colorschemes/colors.js')
 const oceanicTheme = require('./colorschemes/oceanic.js')
 const darkTheme = require('./colorschemes/dark.js')
 
-const getColorScheme = cfg => {
+const getColorScheme = (cfg) => {
   if (cfg.materialshell) {
     switch (cfg.materialshell.theme) {
       case 'oceanic': return oceanicTheme
@@ -12,15 +12,14 @@ const getColorScheme = cfg => {
   }
 }
 
-exports.decorateConfig = config => {
+exports.decorateConfig = (config) => {
   const theme = getColorScheme(config) || darkTheme
-  const backgroundColor = theme.background
 
   return Object.assign({}, config, {
     cursorColor: theme.palette.red,
     cursorShape: 'UNDERLINE',
     foregroundColor: colors.foregroundColor,
-    backgroundColor,
+    backgroundColor: theme.background,
     borderColor: colors.black,
     css: `${config.css || ''}
         .tab_tab:before {border-left: 1px solid;}
