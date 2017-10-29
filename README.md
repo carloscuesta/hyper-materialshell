@@ -1,6 +1,7 @@
 # hyper-materialshell
 
 [![Build Status](https://img.shields.io/travis/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://travis-ci.org/carloscuesta/hyper-materialshell)
+[![Codecov](https://img.shields.io/codecov/c/github/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://github.com/carloscuesta/hyper-materialshell)
 [![npm downloads](https://img.shields.io/npm/dt/hyper-materialshell.svg?style=flat-square)](https://www.npmjs.com/package/hyper-materialshell)
 [![GitHub license](https://img.shields.io/github/license/carloscuesta/hyper-materialshell.svg?style=flat-square)](https://github.com/carloscuesta/hyper-materialshell/blob/master/LICENSE)
 

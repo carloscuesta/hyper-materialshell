@@ -12,7 +12,7 @@ const getColorScheme = (cfg) => {
   }
 }
 
-exports.decorateConfig = (config) => {
+const decorateConfig = (config) => {
   const theme = getColorScheme(config) || darkTheme
 
   return Object.assign({}, config, {
@@ -28,4 +28,9 @@ exports.decorateConfig = (config) => {
     `,
     colors: theme.palette
   })
+}
+
+module.exports = {
+  decorateConfig,
+  getColorScheme
 }

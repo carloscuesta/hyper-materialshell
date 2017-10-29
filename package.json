@@ -7,7 +7,8 @@
     "esnext": true
   },
   "scripts": {
-    "test": "standard"
+    "lint": "standard",
+    "test": "npm run lint && jest && codecov"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,12 @@
   },
   "homepage": "https://github.com/carloscuesta/hyper-materialshell#readme",
   "devDependencies": {
+    "codecov": "^3.0.0",
+    "jest": "^21.2.1",
     "standard": "^10.0.3"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
