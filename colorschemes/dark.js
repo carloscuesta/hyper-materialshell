@@ -5,19 +5,19 @@ module.exports = {
     black: colors.black,
     red: '#FF5252',
     green: '#C3D82C',
-    yellow: '#FFD740',
-    blue: '#40C4FF',
-    magenta: '#FF4081',
-    cyan: '#18FFFF',
+    yellow: '#FFC135',
+    blue: '#42A5F5',
+    magenta: '#D81B60',
+    cyan: '#00ACC1',
     white: '#F5F5F5',
     lightBlack: '#708284',
     lightRed: '#FF5252',
     lightGreen: '#C3D82C',
-    lightYellow: '#FFD740',
-    lightBlue: '#40C4FF',
-    lightMagenta: '#FF4081',
-    lightCyan: '#18FFFF',
+    lightYellow: '#FFC135',
+    lightBlue: '#42A5F5',
+    lightMagenta: '#D81B60',
+    lightCyan: '#00ACC1',
     lightWhite: '#F5F5F5'
   },
-  background: '#263238'
+  background: '#151515'
 }
