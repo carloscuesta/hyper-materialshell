@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hyper-materialshell color schemes should match for the darkTheme color palette 1`] = `
+Object {
+  "background": "#151515",
+  "palette": Object {
+    "black": "#252525",
+    "blue": "#42A5F5",
+    "cyan": "#00ACC1",
+    "green": "#C3D82C",
+    "lightBlack": "#708284",
+    "lightBlue": "#42A5F5",
+    "lightCyan": "#00ACC1",
+    "lightGreen": "#C3D82C",
+    "lightMagenta": "#D81B60",
+    "lightRed": "#FF5252",
+    "lightWhite": "#F5F5F5",
+    "lightYellow": "#FFC135",
+    "magenta": "#D81B60",
+    "red": "#FF5252",
+    "white": "#F5F5F5",
+    "yellow": "#FFC135",
+  },
+}
+`;
+
+exports[`hyper-materialshell color schemes should match for the oceanicTheme color palette 1`] = `
+Object {
+  "background": "#263238",
+  "palette": Object {
+    "black": "#252525",
+    "blue": "#40C4FF",
+    "cyan": "#18FFFF",
+    "green": "#C3D82C",
+    "lightBlack": "#708284",
+    "lightBlue": "#40C4FF",
+    "lightCyan": "#18FFFF",
+    "lightGreen": "#C3D82C",
+    "lightMagenta": "#FF4081",
+    "lightRed": "#FF5252",
+    "lightWhite": "#F5F5F5",
+    "lightYellow": "#FFD740",
+    "magenta": "#FF4081",
+    "red": "#FF5252",
+    "white": "#F5F5F5",
+    "yellow": "#FFD740",
+  },
+}
+`;
+
+exports[`hyper-materialshell global colors should match for the global colors 1`] = `
+Object {
+  "black": "#252525",
+  "foregroundColor": "#A1B0B8",
+}
+`;
+
+exports[`hyper-materialshell theme should match for decorateConfig 1`] = `
+Object {
+  "backgroundColor": "#151515",
+  "borderColor": "#252525",
+  "colors": Object {
+    "black": "#252525",
+    "blue": "#42A5F5",
+    "cyan": "#00ACC1",
+    "green": "#C3D82C",
+    "lightBlack": "#708284",
+    "lightBlue": "#42A5F5",
+    "lightCyan": "#00ACC1",
+    "lightGreen": "#C3D82C",
+    "lightMagenta": "#D81B60",
+    "lightRed": "#FF5252",
+    "lightWhite": "#F5F5F5",
+    "lightYellow": "#FFC135",
+    "magenta": "#D81B60",
+    "red": "#FF5252",
+    "white": "#F5F5F5",
+    "yellow": "#FFC135",
+  },
+  "css": "
+        .tab_tab:before {border-left: 1px solid;}
+        .tab_active {background: rgba(255,255,255,0.05);}
+        .tab_active:before {border-color: #FF5252;}
+    ",
+  "cursorColor": "#FF5252",
+  "cursorShape": "UNDERLINE",
+  "foregroundColor": "#A1B0B8",
+  "materialshell": Object {},
+}
+`;
