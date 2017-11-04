@@ -17,7 +17,6 @@ const decorateConfig = (config) => {
 
   return Object.assign({}, config, {
     cursorColor: theme.palette.red,
-    cursorShape: 'UNDERLINE',
     foregroundColor: colors.foregroundColor,
     backgroundColor: theme.background,
     borderColor: colors.black,
