@@ -83,7 +83,6 @@ Object {
         .tab_active:before {border-color: #FF5252;}
     ",
   "cursorColor": "#FF5252",
-  "cursorShape": "UNDERLINE",
   "foregroundColor": "#A1B0B8",
   "materialshell": Object {},
 }
