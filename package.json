@@ -29,7 +29,7 @@
   "homepage": "https://github.com/carloscuesta/hyper-materialshell#readme",
   "devDependencies": {
     "codecov": "^3.0.0",
-    "jest": "^24.0.0",
+    "jest": "^25.1.0",
     "standard": "^14.1.0"
   },
   "jest": {
