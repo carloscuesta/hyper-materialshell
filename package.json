@@ -1,6 +1,6 @@
 {
   "name": "hyper-materialshell",
-  "version": "1.6.4",
+  "version": "1.6.5",
   "description": "A material design theme for Hyper based on materialshell.",
   "main": "index.js",
   "xo": {
@@ -22,7 +22,7 @@
     "material design"
   ],
   "author": {
-    "name": "Carlos Cuesta",
+    "name": "carloscuesta",
     "email": "hi@carloscuesta.me",
     "url": "https://carloscuesta.me"
   },
