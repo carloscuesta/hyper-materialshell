@@ -1,9 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`hyper-materialshell color schemes should match for the darkTheme color palette 1`] = `
-Object {
+{
   "background": "#151515",
-  "palette": Object {
+  "palette": {
     "black": "#252525",
     "blue": "#42A5F5",
     "cyan": "#00ACC1",
@@ -25,9 +25,9 @@ Object {
 `;
 
 exports[`hyper-materialshell color schemes should match for the oceanicTheme color palette 1`] = `
-Object {
+{
   "background": "#263238",
-  "palette": Object {
+  "palette": {
     "black": "#252525",
     "blue": "#40C4FF",
     "cyan": "#18FFFF",
@@ -49,17 +49,17 @@ Object {
 `;
 
 exports[`hyper-materialshell global colors should match for the global colors 1`] = `
-Object {
+{
   "black": "#252525",
   "foregroundColor": "#A1B0B8",
 }
 `;
 
 exports[`hyper-materialshell theme should match for decorateConfig 1`] = `
-Object {
+{
   "backgroundColor": "#151515",
   "borderColor": "#252525",
-  "colors": Object {
+  "colors": {
     "black": "#252525",
     "blue": "#42A5F5",
     "cyan": "#00ACC1",
@@ -84,6 +84,6 @@ Object {
     ",
   "cursorColor": "#FF5252",
   "foregroundColor": "#A1B0B8",
-  "materialshell": Object {},
+  "materialshell": {},
 }
 `;
